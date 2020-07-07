@@ -1,5 +1,8 @@
 module Range =
 struct
+
+  (* Expressive type to indicate whether a range travels forward or backwards. *)
+
   type range_direction = 
   | Forward 
   | Back
